@@ -15,8 +15,8 @@ Necesitamos un entorno virtual basado Python 3.7, con él activo, instalamos las
 
 ## Configuración AWS
 
-Para que la magia funcione, debes tener configuro el acceso de usuario IAM en tu cuenta de AWS.
-Se configura simplemente así:
+Para que la magia funcione, debes tener configurado el acceso de usuario IAM en tu cuenta de AWS.
+Se hace simplemente así:
 ```
  $: aws configure
 ```
