@@ -31,4 +31,4 @@ Aplicar migraciones y luego el comando de siempre
 
 ## Autor
 
-* **Franco Díaz** - *🐍Python Developer* - [@fraediaz](https://github.com/fraediaz)
+* **Franco Díaz S.-** - *🐍 Python Developer* - [@fraediaz](https://github.com/fraediaz)
