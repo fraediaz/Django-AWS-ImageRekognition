@@ -1,0 +1,30 @@
+{% extends '_.html' %}
+{% load static %}
+
+{% block _body %}
+  
+
+<div class="wrapper" style="background-image: url('/static/images/bg-registration-form-1.jpg');">
+    <div class="inner">
+        <div class="image-holder">
+            <img src="{% static 'images/registration-form-1.png' %}" alt="">
+        </div>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <h3>Elige una imagen</h3>
+            
+            {% csrf_token %}
+            {{form}}
+            <button type="submit">Analizar
+                <i class="zmdi zmdi-arrow-right"></i>
+            </button>
+        </form>
+        
+    </div>
+    
+       
+    
+</div>
+
+
+      
+{% endblock _body %}

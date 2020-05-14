@@ -1,0 +1,29 @@
+{% extends '_.html' %}
+{% load static %}
+
+{% block _body %}
+  
+
+<div class="wrapper" style="background-image: url('/static/images/bg-registration-form-1.jpg');">
+    <div class="inner">
+        <div class="image-holder">
+            <img src="{% static 'media/' %}{{img}}" alt="">
+        </div>
+              
+        <div class="container">
+            
+              
+                  {% for x in respuesta %}
+
+                            {{x.Name}} - {{x.Confidence}}% <br>
+
+                  {% endfor %}
+                
+        </div>
+    </div>
+   
+</div>
+
+
+      
+{% endblock _body %}
