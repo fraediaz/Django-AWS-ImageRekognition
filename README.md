@@ -1,14 +1,13 @@
 # Django AWS Image Rekongnition
 
-Proyecto de Inteligencia Artificial; utilizando herramientas de Amazon Web Services, el software es capáz de identificar objetos dentro de una imagen.
+Proyecto de Inteligencia Artificial; utilizando herramientas de Amazon Web Services, el software puede identificar objetos dentro de una imagen.
 
 ![Farmers Market Finder Demo](img/1.jpeg)
 ![Farmers Market Finder Demo](img/2.jpeg)
 
 ## Cómo comenzar ?
 
-Necesitamos un entorno virtual basado Python 3.7
-Con el entorno activo, instalamos las librerías.
+Necesitamos un entorno virtual basado Python 3.7, con él activo, instalamos las librerías.
 
 ```
  $: pip install -r librerias.txt
