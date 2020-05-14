@@ -3,6 +3,7 @@
 Proyecto de Inteligencia Artificial; utilizando herramientas de Amazon Web Services, el software es capáz de identificar objetos dentro de una imagen.
 
 ![Farmers Market Finder Demo](img/1.jpeg)
+![Farmers Market Finder Demo](img/2.jpeg)
 
 ## Cómo comenzar ?
 
