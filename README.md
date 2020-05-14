@@ -2,7 +2,7 @@
 
 Proyecto de Inteligencia Artificial; utilizando herramientas de Amazon Web Services, el software es capáz de identificar objetos dentro de una imagen.
 
-![Farmers Market Finder Demo](gifs/1.gif)
+![Farmers Market Finder Demo](img/1.jpeg)
 
 ## Cómo comenzar ?
 
@@ -22,12 +22,12 @@ Se configura simplemente así:
 ```
 
 ## Levantar el proyecto
-
-El comando de siempre
+Aplicar migraciones y luego el comando de siempre
 ```
+ $: python manage.py migrate
  $: python manage.py runserver 0:80
 ```
 
 ## Autor
 
-* **Franco Díaz** - *Python Developer* - [@fraediaz](https://github.com/fraediaz)
+* **Franco Díaz** - *🐍Python Developer* - [@fraediaz](https://github.com/fraediaz)
